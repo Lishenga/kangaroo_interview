@@ -1,4 +1,4 @@
-name: Pharmcomm Accounting WorkFlow
+name: Kangaroo Interview WorkFlow
 on:
   push:
     branches:
