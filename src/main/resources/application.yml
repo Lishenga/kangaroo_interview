@@ -1,0 +1,51 @@
+spring:
+  application:
+    name: authentication-service
+  datasource:
+    url: jdbc:mysql://46.101.124.245:3306/kangaroo_interview
+    username: admin
+    password: P1r1chon1.
+#    url: jdbc:mysql://localhost:3306/kangaroo_interview?useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+#    username: root
+    # password: p1r1chon1
+    hikari:
+      connectionTimeout: 20000
+      maxLifetime: 27800
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+server:
+  port: 81
+  servlet:
+    context-path: "/kangaroo_interview"
+
+# server.servlet.context-path=/auth
+
+logging:
+  level:
+    org:
+      springframework: ERROR
+
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+
+## System Configs
+system-config:
+  token:
+    generator: 5r'YgER_D;*n$=op&8GZ&$;0g#cx|hVhg;M=h{V>)LH$$ejSV+uDS3)"lQRt/?C
+  api:
+    version: 1.0.0
+
+
+
+# eureka.instance.preferIpAddress=true
+# eureka.instance.hostname = authentication-service
+
+## jdjdjdlsdjlk
+
