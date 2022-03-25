@@ -1,8 +1,10 @@
 name: Kangaroo Interview WorkFlow
 on:
-  push:
-    branches:
-      - main
+#  push:
+#    branches:
+#      - main
+  release:
+    types: [ published ]
 env:
   IMAGE_NAME: kangaroo_interview
   INTERVIEW_CONTAINER_IMAGE: kangaroo_interview
