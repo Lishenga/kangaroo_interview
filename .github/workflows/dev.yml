@@ -1,8 +1,5 @@
 name: Kangaroo Interview WorkFlow
 on:
-#  push:
-#    branches:
-#      - main
   release:
     types: [ published ]
 env:
