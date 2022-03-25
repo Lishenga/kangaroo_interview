@@ -10,9 +10,6 @@ import javax.validation.constraints.NotNull;
 @Getter @Setter
 public class GeneralPagedRequest implements Serializable {
 
-    /**
-     *
-     */
     private static final long serialVersionUID = -6487671289690827077L;
 
     @NotNull(message = "Provide page")
